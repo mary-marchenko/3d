@@ -15,7 +15,7 @@ const card = document.querySelector(".card");
 let angle = 0;
 
 function animateCard() {
-    angle += 2.5; // Швидкість руху
+    angle += 1; // Швидкість руху
     const rotateX = Math.sin(angle * (Math.PI / 180)) * 10; // Коливання по X
     const rotateY = Math.cos(angle * (Math.PI / 180)) * 10; // Коливання по Y
 
